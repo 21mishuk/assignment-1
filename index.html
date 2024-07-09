@@ -25,7 +25,7 @@
             <h1 class="banner-text">"In the near future, I hope to <br> become a Developer."</h1>
             <p class="banner-p color-1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem <br>
                 Ipsum has been the industry's standard dummy text.</p>
-            <button class="contract-btn">Contract with me</button>
+            <button id="contract-btn" class="contract-btn">Contract with me</button>
         </div>
     </div>
     <!-- banner section end -->
@@ -126,7 +126,7 @@
 
     <!-- footer section start -->
     <footer>
-        <div class="footer">
+        <div id="footer" class="footer">
             <h1 class="footer-h">An Open Commitment by Awlad Hossain</h1>
             <div>
                 <img src="assets/facebook.png" alt="">
@@ -136,6 +136,15 @@
         </div>
     </footer>
     <!-- footer section end -->
+
+
+    <script>
+        var contractBtn = document.getElementById('contract-btn');
+    
+        contractBtn.addEventListener('click', function() {
+            document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
