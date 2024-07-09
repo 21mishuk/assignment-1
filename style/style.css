@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* banner section design start */
+
+.banner {
+    align-items: center;
+    text-align: center;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.banner-text {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.contract-btn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px 16px 18px 16px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+}
+
+/* banner section design end */
+
+.color-1 {
+    color: #0D1321A8;
+}
+
+.color-2 {
+    color: #0D1321B3;
+}
+
+/* main section style start */
+.main {
+    margin: 95px 120px 0px 120px;
+}
+
+.main-first {
+    
+    padding: 97px 80px 0px 80px;
+    background-color: #0D132105;
+    border-radius: 16px;
+}
+
+.main-h {
+    font-size: 34px;
+    font-weight: 700;
+}
+.main-text {
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.main-fst-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+.learn-btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.first-layer {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #FFFFFFFF, #FFFFFF00);
+    border-radius: 16px;
+}
+
+.second-layer {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background-image: linear-gradient(to left, #FFFFFFFF, #FFFFFF00);
+}
+
+.inspiration {
+    text-align: center;
+    padding: 0px 70px;
+}
+.h {
+    font-size: 32px;
+    font-weight: 800;
+}
+.main-second {
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+.video {
+    border-radius: 16px;
+    width: 852px;
+    height: 514px;
+    padding: 32px;
+    border: 1px solid #0D132133;
+    margin-bottom: 90px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 111px;
+}
+
+.main-third-h {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.learn-a {
+    color: black;
+}
+
+.html {
+    background-color: #FF4C1E0D;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.css {
+    background-color: #004CE80D;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.js {
+    background-color: #FFDF000D;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.input {
+    width: 548px;
+    padding: 19px 20px;
+    border: none;
+    border-radius: 16px;
+}
+.searchbox {
+    display: flex;
+    align-items: center;
+    padding-bottom: 64px;
+    margin-top: 24px;
+    gap: 16px;
+    justify-content: center;
+}
+.btn-submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 16px;
+}
+
+.main-forth-img {
+    background-image: linear-gradient(0deg, #00000033, #00000033), url("../assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 313px;
+    border-radius: 16px;
+    text-align: center;
+}
+.forth-h {
+    padding-top: 64px;
+    color: aliceblue;
+}
+.forth-p {
+    color: white;
+}
+
+/* main section style end */
+
+/* footer section style start */
+.footer {
+    background-color: #0D132108;
+    padding: 32px 150px;
+}
+.footer-h {
+    font-size: 20px;
+    font-weight: 700;
+}
+/* footer section style start */
