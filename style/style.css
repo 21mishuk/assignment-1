@@ -223,4 +223,8 @@
     font-size: 20px;
     font-weight: 700;
 }
+.footer-img {
+    display: flex;
+    gap: 20px;
+}
 /* footer section style start */
