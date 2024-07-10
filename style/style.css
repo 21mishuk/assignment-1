@@ -176,6 +176,22 @@
     border-radius: 16px;
 }
 
+.main-optional {
+    margin-bottom: 50px;
+}
+.optional-text {
+    text-align: center;
+}
+.optional-card {
+    display: flex;
+    padding: 40px;
+    gap: 24px;
+    align-items: center;
+    border: 1px solid #0D132126;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
 .input {
     width: 540px;
     padding: 19px 20px;
