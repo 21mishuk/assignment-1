@@ -122,16 +122,20 @@
 }
 .main-second {
     text-align: center;
-    border-radius: 16px;
     margin-top: 50px;
+    border: 1px solid #0D132133;
+    padding: 32px;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 95px 120px 0px 120px;
 }
 .video {
     border-radius: 16px;
     width: 852px;
     height: 514px;
-    padding: 32px;
-    border: 1px solid #0D132133;
-    margin-bottom: 90px;
+    /* padding: 32px; */
+    
+    /* margin-bottom: 90px; */
 }
 
 .card {
@@ -190,6 +194,7 @@
     background-color: aliceblue;
     border: none;
     border-radius: 16px;
+    cursor: pointer;
 }
 
 .main-forth-img {
@@ -226,5 +231,19 @@
 .footer-img {
     display: flex;
     gap: 20px;
+}
+
+.footer-img .fa-facebook {
+    font-size: xx-large;
+    color: #006AFFFF
+}
+
+.footer-img .fa-github {
+    font-size: xx-large;
+    color: #161614FF;
+}
+.footer-img .fa-linkedin {
+    font-size: xx-large;
+    color: #2489BEFF;
 }
 /* footer section style start */
