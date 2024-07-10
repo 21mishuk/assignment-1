@@ -23,6 +23,7 @@
     padding: 17px 24px;
     border-radius: 8px;
     border: 1px solid black;
+    cursor: pointer;
     
 }
 /* header style start */
@@ -58,13 +59,15 @@
 
 /* banner section design end */
 
+/* sharerd css */
 .color-1 {
-    color: #0D1321A8;
+    color: #0D1321AD;
 }
 
 .color-2 {
-    color: #0D1321B3;
+    color: #0D1321B8;
 }
+/* shared css */
 
 /* main section style start */
 .main {
